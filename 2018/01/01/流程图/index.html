@@ -8,16 +8,16 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>流程图 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="12">
+  <meta name="description" content="学习流程图的制作自上而下12graph TBA--&amp;gt;B 1234567ganttdateFormat YYYY-MM-DDtitle 实验进程表section 初期阶段明确要求：2016-03-01, 10dsection 中期阶段跟进开发：2016-03-11,15d 表格1 时间|事项|花费时间2 —">
 <meta property="og:type" content="article">
 <meta property="og:title" content="流程图">
 <meta property="og:url" content="http://yoursite.com/2018/01/01/流程图/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="12">
-<meta property="og:updated_time" content="2018-01-01T12:54:27.181Z">
+<meta property="og:description" content="学习流程图的制作自上而下12graph TBA--&amp;gt;B 1234567ganttdateFormat YYYY-MM-DDtitle 实验进程表section 初期阶段明确要求：2016-03-01, 10dsection 中期阶段跟进开发：2016-03-11,15d 表格1 时间|事项|花费时间2 —|—|—3 2018.1.2 | ZIF-67的制备|4 2018.1.2 | ZIF-">
+<meta property="og:updated_time" content="2018-01-01T14:17:44.347Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="流程图">
-<meta name="twitter:description" content="12">
+<meta name="twitter:description" content="学习流程图的制作自上而下12graph TBA--&amp;gt;B 1234567ganttdateFormat YYYY-MM-DDtitle 实验进程表section 初期阶段明确要求：2016-03-01, 10dsection 中期阶段跟进开发：2016-03-11,15d 表格1 时间|事项|花费时间2 —|—|—3 2018.1.2 | ZIF-67的制备|4 2018.1.2 | ZIF-">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -173,7 +173,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+        <h4 id="学习流程图的制作"><a href="#学习流程图的制作" class="headerlink" title="学习流程图的制作"></a>学习流程图的制作</h4><p>自上而下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">graph TB</span><br><span class="line">A--&gt;B</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">gantt</span><br><span class="line">dateFormat YYYY-MM-DD</span><br><span class="line">title 实验进程表</span><br><span class="line">section 初期阶段</span><br><span class="line">明确要求：2016-03-01, 10d</span><br><span class="line">section 中期阶段</span><br><span class="line">跟进开发：2016-03-11,15d</span><br></pre></td></tr></table></figure>
+<p>表格<br>1 时间|事项|花费时间<br>2 —|—|—<br>3 2018.1.2 | ZIF-67的制备|<br>4 2018.1.2 | ZIF-67前体和高锰酸钾一起放入|</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">st=&gt;start: Start|past:&gt;http://www.google.com[blank]</span><br><span class="line">e=&gt;end: End:&gt;http://www.google.com</span><br><span class="line">op1=&gt;operation: My Operation|past</span><br><span class="line">op2=&gt;operation: Stuff|current</span><br><span class="line">sub1=&gt;subroutine: My Subroutine|invalid</span><br><span class="line">cond=&gt;condition: Yes</span><br><span class="line">or No?|approved:&gt;http://www.google.com</span><br><span class="line">c2=&gt;condition: Good idea|rejected</span><br><span class="line">io=&gt;inputoutput: catch something...|request</span><br><span class="line"></span><br><span class="line">st-&gt;op1(right)-&gt;cond</span><br><span class="line">cond(yes, right)-&gt;c2</span><br><span class="line">cond(no)-&gt;sub1(left)-&gt;op1</span><br><span class="line">c2(yes)-&gt;io-&gt;e</span><br><span class="line">c2(no)-&gt;op2-&gt;e</span><br></pre></td></tr></table></figure>
       
 
       
@@ -265,6 +268,15 @@
 
   
 <nav id="article-nav">
+  
+    <a href="/2018/01/01/新建文本文档/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
   
   
     <a href="/2018/01/01/to-do list/" id="article-nav-older" class="article-nav-link-wrap">
@@ -394,7 +406,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">日记</a>
+                <a href="javascript:void(0)" class="js-tag color1">tasks</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -406,11 +418,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">心情</a>
+                <a href="javascript:void(0)" class="js-tag color3">日记</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">实验</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">心情</a>
               </li>
             
             <div class="clearfix"></div>
